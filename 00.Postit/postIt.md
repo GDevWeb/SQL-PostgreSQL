@@ -278,3 +278,36 @@ WHERE table_schema = 'public';
 [notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/35.Introducing-Numeric-Values-Date-Types&More/notes.md)
 
 `Add a short resume about the concept and the goal`
+
+### **Summary**
+
+- **Numeric Types**: `SMALLINT`, `INTEGER`, `BIGINT`, `DECIMAL`, `REAL`, `DOUBLE PRECISION`
+- **Date/Time Types**: `DATE`, `TIME`, `TIMESTAMP`, `TIMESTAMPTZ`, `INTERVAL`
+- **Boolean**: `BOOLEAN` for `TRUE` or `FALSE` values.
+- Choosing the right data type is essential for **efficiency**, **data integrity**, and **performance**.
+
+## **36. An Overview of Numeric Value Types in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/36.An-Overview-of-Numeric-Value-Types-in-PostgreSQL/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+## **37. How Do You Store Files in PostgreSQL?**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/37.How-Do-You-Store-Files/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **Comparison of Methods**
+
+| **Method**        | **Use Case**                 | **Pros**                       | **Cons**                          |
+| ----------------- | ---------------------------- | ------------------------------ | --------------------------------- |
+| **`BYTEA`**       | Small files (up to a few MB) | Simple to use, stores in table | Not suitable for large files      |
+| **Large Objects** | Large files (>10 MB)         | Efficient for large files      | Requires special LO functions     |
+| **File Paths**    | Very large files             | Lightweight, reduces DB size   | Relies on filesystem availability |
+
+### **38. Getting Started With the `CREATE TABLE` Statement & Syntax in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/38.Getting-Started-With-The-CREATE-TABLE-Statement&Syntax/notes.md)
+
+`Add a short resume about the concept and the goal`
