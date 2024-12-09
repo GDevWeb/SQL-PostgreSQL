@@ -168,3 +168,113 @@
 3. **IntelliSense**: Autocompletion and syntax suggestions for SQL queries.
 4. **User Settings**: Global settings applied to all VS Code projects.
 5. **Workspace Settings**: Project-specific settings that override global ones.
+
+---
+
+## Section 4: Data Definitions – Managing Tables & Working with Data Types
+
+### **27. Module Introduction**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/27.%20Module%20Introduction/notes.md)
+
+#### **Important Keywords & Definitions**
+
+1. **DDL (Data Definition Language)**: SQL commands used to define and modify database structures (e.g., `CREATE`, `ALTER`, `DROP`).
+2. **`CREATE TABLE`**: Command to create a new table in a database.
+3. **Data Type**: Specifies the kind of data a column can hold (e.g., `INT`, `VARCHAR`, `DATE`).
+4. **Constraint**: Rules applied to columns to enforce data integrity (e.g., `PRIMARY KEY`, `NOT NULL`).
+5. **`ALTER TABLE`**: Command to modify an existing table’s structure.
+6. **`DROP TABLE`**: Command to delete a table and its data from the database.
+
+### **28. Key Terms When Working With Data Definition Statements & Commands**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/28.Key-Terms-When-Working-With-Data%20Definition-Statements&Commands/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **Important Keywords & Definitions Recap**
+
+1. **DDL**: Data Definition Language for managing database structures.
+2. **Primary Key**: Unique identifier for each row.
+3. **Foreign Key**: Field linking one table to another.
+4. **Constraint**: Rules to maintain data integrity.
+5. **Index**: Speeds up data retrieval.
+6. **Schema**: Defines the structure and organization of a database.
+
+### **29. Introducing The Course Section Example**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/29.Introducing-The-Course-Section-Example/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **30. Introducing Key Data Definition Clauses**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/30.Introducing-Key-Data-Definition-Clauses/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **31. Creating a New Database in PostgreSQL (Using SQLTools with VS Code)**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/31.Creating-a-new-Database-CREATE-DATABASE/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Important Keywords & Definitions**
+
+1. **`CREATE TABLE`**: Defines a new table.
+2. **`ALTER TABLE`**: Modifies an existing table.
+3. **`DROP TABLE`**: Deletes a table and its data.
+4. **`TRUNCATE TABLE`**: Removes all rows from a table without deleting its structure.
+5. **Constraint**: Rules applied to columns to ensure data integrity (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, etc.).
+
+### **32. Deleting Databases & `IF NOT EXISTS` in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/32.Deleting-Databases&IF-NOT-EXISTS-in-PostgreSQL/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **Summary of Key Commands**
+
+| **Command**                     | **PostgreSQL Support** |
+| ------------------------------- | ---------------------- |
+| `DROP DATABASE IF EXISTS`       | ✅ Supported           |
+| `CREATE DATABASE IF NOT EXISTS` | ❌ Not Supported       |
+| `CREATE TABLE IF NOT EXISTS`    | ✅ Supported           |
+
+### **33. The Importance of Data Types (Value Types) in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/33.The-Importance-Of-Data-Types-Value-Types/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+---
+
+## Commonly commands
+
+### View all tables from a DB
+
+```sql
+FROM information_schema.tables
+SELECT table_name
+WHERE table_schema = 'public';
+```
+
+### **34. Introducing Key Text Value Types in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/34.Introducing-Key-Text-Value-Types/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **Comparison of Text Types**
+
+| **Type**         | **Description**                         | **Max Length** | **Use Case**                      |
+| ---------------- | --------------------------------------- | -------------- | --------------------------------- |
+| **`CHAR(n)`**    | Fixed-length string, padded with spaces | `n` characters | Fixed-size data (e.g., codes)     |
+| **`VARCHAR(n)`** | Variable-length string, up to `n`       | `n` characters | Varying-length data (e.g., names) |
+| **`TEXT`**       | Unlimited-length string                 | No limit       | Long text (e.g., articles)        |
+
+## **35. Introducing Numeric Values, Date Types, and More in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/35.Introducing-Numeric-Values-Date-Types&More/notes.md)
+
+`Add a short resume about the concept and the goal`
