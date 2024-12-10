@@ -311,3 +311,98 @@ WHERE table_schema = 'public';
 [notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/38.Getting-Started-With-The-CREATE-TABLE-Statement&Syntax/notes.md)
 
 `Add a short resume about the concept and the goal`
+
+### **39. Creating a First Text Column in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/39.Creating-a-First-Text-Column/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **Best Practices for Text Columns**
+
+1. **Use `VARCHAR(n)`** for fields with predictable maximum lengths (e.g., names, emails).
+2. **Use `TEXT`** for fields where the length is unpredictable (e.g., descriptions, comments).
+3. **Avoid `CHAR(n)`** unless you have fixed-length data, as it pads shorter strings with spaces.
+4. **Add Constraints** like `NOT NULL` or `UNIQUE` when necessary to ensure data integrity.
+
+## **40. Creating a Numeric Value Column in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/39.Creating-a-First-Text-Column/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Common Numeric Data Types in PostgreSQL**
+
+| **Data Type**          | **Description**                                  | **Range**                         |
+| ---------------------- | ------------------------------------------------ | --------------------------------- |
+| **`SMALLINT`**         | Small integer (2 bytes)                          | -32,768 to 32,767                 |
+| **`INTEGER` / `INT`**  | Standard integer (4 bytes)                       | -2,147,483,648 to 2,147,483,647   |
+| **`BIGINT`**           | Large integer (8 bytes)                          | -9 quintillion to 9 quintillion   |
+| **`DECIMAL(p, s)`**    | Exact fixed-point number                         | User-defined precision and scale  |
+| **`NUMERIC(p, s)`**    | Same as `DECIMAL`                                | User-defined precision and scale  |
+| **`REAL`**             | Single-precision floating-point number (4 bytes) | 6 decimal digits of precision     |
+| **`DOUBLE PRECISION`** | Double-precision floating-point number (8 bytes) | 15-17 decimal digits of precision |
+| **`SERIAL`**           | Auto-incrementing integer (4 bytes)              | 1 to 2,147,483,647                |
+| **`BIGSERIAL`**        | Auto-incrementing large integer (8 bytes)        | 1 to 9,223,372,036,854,775,807    |
+
+#### **Summary**
+
+- Use **`INTEGER`**, **`SMALLINT`**, or **`BIGINT`** for whole numbers.
+- Use **`DECIMAL`/`NUMERIC`** for exact decimal values.
+- Use **`REAL`** or **`DOUBLE PRECISION`** for approximate floating-point values.
+- Add constraints to ensure **data integrity** (e.g., `CHECK (value > 0)`).
+
+### **41. Working with Enums & Finishing Table Creation in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/41.Working-with-Enums&Finishing-Table-Creation/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Best Practices for Using Enums**
+
+1. **Use Enums for Fixed Sets of Values**:
+
+   - Enums are great for columns with a limited set of predefined values (e.g., statuses, categories).
+
+2. **Consider Future Changes**:
+
+   - If you anticipate frequent changes to the set of allowed values, enums may not be the best choice. Consider using a separate lookup table instead.
+
+3. **Naming Conventions**:
+
+   - Use clear and descriptive names for enum types (e.g., `task_status`, `role_type`).
+
+4. **Combining Constraints**:
+   - Combine enums with constraints like `NOT NULL` and `DEFAULT` to enforce data integrity.
+
+#### Summary
+
+- Enums are useful for columns with a fixed set of values.
+- Use the CREATE TYPE statement to define an enum.
+- Enums help enforce data integrity and simplify schema design.
+- Combine enums with constraints like NOT NULL and DEFAULT for more robust tables.
+
+### **42. Inserting Data into the Created Table (`INSERT INTO`) in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/42.Inserting-Data-Into-The-Created-Table-INSERT%20INTO/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Summary**
+
+- **`INSERT INTO`** is used to add new rows to a table.
+- You can insert data into **all columns** or **specific columns**.
+- Use **`RETURNING`** to get values from the inserted rows.
+- Handle errors related to constraints and data types carefully.
+
+## **43. Inserting & Querying More Data in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/43.Inserting&Querying-More-Data-in-PostgreSQL/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **Summary**
+
+- **Insert Data**: Use `INSERT INTO` to add multiple rows to a table.
+- **Query Data**: Use `SELECT` with options like `WHERE`, `JOIN`, `ORDER BY`, `AND`, and `OR` to retrieve and filter data.
+- **Practice**: Combining `INSERT` and `SELECT` helps solidify your understanding of data manipulation in PostgreSQL.

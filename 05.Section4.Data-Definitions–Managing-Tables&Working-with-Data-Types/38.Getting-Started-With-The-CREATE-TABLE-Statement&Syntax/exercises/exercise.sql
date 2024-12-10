@@ -15,5 +15,10 @@ ADD COLUMN DiscountedPrice DECIMAL(10,2);
 
 INSERT INTO cars (Brand, Model, Year, Motor, Options, Price, Discount, DiscountedPrice)
 VALUES ('Renault', 'Captur', '2024-01-01', 'Hybrid Diesel', 'Backyard Camera, Google CarPlay', 25000.00, 10.00, 22500.00);
+
+-- Automatic calculation
+-- INSERT INTO cars (Brand, Model, Year, Motor, Options, Price, Discount, DiscountedPrice)
+-- VALUES ('Renault', 'Captur', '2024-01-01', 'Hybrid Diesel', 'Backyard Camera, Google CarPlay', 25000.00, 10.00, 25000.00 * (1 - 10.00 / 100));
+
 SELECT * FROM cars;
 
