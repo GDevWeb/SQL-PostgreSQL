@@ -424,3 +424,42 @@ WHERE table_schema = 'public';
 [notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/45.Adding-Boolean-Value-Types/notes.md)
 
 `Add a short resume about the concept and the goal`
+
+### **46. Creating a New Table with Text & Timestamp Data in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/46.Creating-a-new-Table-with-Text-Timestamp-Data/notes.md)
+
+`In PostgreSQL, the TEXT data type is used for storing variable-length strings, while the TIMESTAMP data type is used to store date and time information. These types are commonly combined in tables for tracking events, logging activity, or storing descriptive data with timestamps.`
+
+Add some example or a comparative array
+
+### **Summary**
+
+- **Text Columns**: Use `TEXT` for variable-length strings and `VARCHAR` for strings with a defined maximum length.
+- **Timestamp Columns**: Use `TIMESTAMP` for storing date and time information. Use `DEFAULT CURRENT_TIMESTAMP` to auto-fill with the current time.
+- **Tracking Updates**: Combine `CreatedAt` and `UpdatedAt` for tracking row creation and modification times.
+
+### **47. Inserting Data into the New Tables in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/47.Inserting-Data-Into-The-New-Tables/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **48. Working with Time Zones in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/48.What-About-Time-Zones/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Summary**
+
+- **`TIMESTAMP WITH TIME ZONE`** stores date-time values with time zone awareness and converts them to UTC internally.
+- Use **`SET TIME ZONE`** to change the session's time zone for displaying times.
+- Use **`AT TIME ZONE`** to convert timestamps to different time zones.
+- Storing times in **UTC** ensures consistency and avoids ambiguity when working with multiple time zones.
+
+### **49. Introducing Default Column Values in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/49.Introducing-Default-Column-Values/notes.md)
+
+`Add a short resume about the concept and the goal`

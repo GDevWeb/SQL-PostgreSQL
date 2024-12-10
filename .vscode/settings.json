@@ -38,6 +38,15 @@
       "name": "MyLocalMySQL",
       "username": "postgres",
       "database": "Test"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "PostgreSQL (tchat)",
+      "database": "tchat",
+      "username": "postgres"
     }
   ]
 }
