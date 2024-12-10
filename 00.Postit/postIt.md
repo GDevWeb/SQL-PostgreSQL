@@ -406,3 +406,21 @@ WHERE table_schema = 'public';
 - **Insert Data**: Use `INSERT INTO` to add multiple rows to a table.
 - **Query Data**: Use `SELECT` with options like `WHERE`, `JOIN`, `ORDER BY`, `AND`, and `OR` to retrieve and filter data.
 - **Practice**: Combining `INSERT` and `SELECT` helps solidify your understanding of data manipulation in PostgreSQL.
+
+### **44. Working with Fixed-Point and Floating-Point Numbers in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/44.Working-With-Fixed-Point&Floating-Point-Numbers/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### **Summary**
+
+- **Fixed-Point Numbers** (`DECIMAL`/`NUMERIC`) provide **exact precision** and are ideal for financial data.
+- **Floating-Point Numbers** (`REAL`/`DOUBLE PRECISION`) provide **approximate precision** and are suitable for scientific calculations.
+- Choose the appropriate numeric type based on your **precision needs** and **use case**.
+
+### **45. Adding Boolean Value Types in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/45.Adding-Boolean-Value-Types/notes.md)
+
+`Add a short resume about the concept and the goal`
