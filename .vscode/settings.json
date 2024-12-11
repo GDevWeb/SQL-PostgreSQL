@@ -10,6 +10,15 @@
       "group": "Tuto",
       "database": "TutoPostGreSQL",
       "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "online_shop",
+      "database": "online_shop",
+      "username": "postgres"
     }
   ]
 }

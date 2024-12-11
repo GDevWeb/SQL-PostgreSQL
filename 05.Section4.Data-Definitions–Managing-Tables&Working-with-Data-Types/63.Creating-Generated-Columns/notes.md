@@ -3,7 +3,6 @@
 ## **63. Creating Generated Columns in PostgreSQL and MySQL**
 
 - [Udemy](https://www.udemy.com/course/sql-the-complete-developers-guide-mysql-postgresql/learn/lecture/28614458#overview)
-- ***
 
 #### **Overview**
 
