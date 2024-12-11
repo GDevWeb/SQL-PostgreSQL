@@ -481,7 +481,7 @@ Add some example or a comparative array
 
 [notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/51.Updating-Tables&Columns/notes.md)
 
-`Add a short resume about the concept and the goal`
+Find the commons commands used to `Alter`, `RENAME`, `SET`, `DROP`, TABLE AND COLUMN.
 
 #### **Summary**
 
@@ -491,6 +491,142 @@ Add some example or a comparative array
 
 ### **52. Dealing with "No Data" (`NULL`) vs "0" in PostgreSQL**
 
+#### **Summary**
+
+- **`NULL`** represents the absence of data; **`0`** is a numeric value.
+- Use **`IS NULL`** and **`IS NOT NULL`** to filter `NULL` values.
+- Use **`COALESCE`** to replace `NULL` with a default value.
+- Use **`NULLIF`** to turn specific values (like `0`) into `NULL`.
+- Aggregation functions like **`SUM`** and **`AVG`** ignore `NULL` values.
+
 [notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/52.Dealing-With-No-Data-NULLvs-0/notes.md)
 
+### **53. `NULL` Values, Inserting (No) Data & Default Values in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/53.NULL-Values-Inserting-No-Data&Default-Values/notes.md)
+
 `Add a short resume about the concept and the goal`
+
+### **54. Exploring the `NOT NULL` Constraint in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/54.Exploring-the-NOT%20NULL-Constraint/notes.md)
+
+The **`NOT NULL`** constraint in PostgreSQL ensures that a column **cannot store `NULL` values**. This constraint is essential for maintaining data integrity by making sure that important columns always contain meaningful data.
+
+#### **Summary**
+
+- The **`NOT NULL`** constraint ensures that a column cannot store `NULL` values.
+- When inserting data, omitting a `NOT NULL` column will result in an error.
+- You can add or drop `NOT NULL` constraints using `ALTER TABLE`.
+- Combine `NOT NULL` with **default values** to ensure columns always have meaningful data.
+
+## **55. Exploring the `CHECK` Constraint in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/54.Exploring-the-NOT%20NULL-Constraint/notes.md)
+
+The **`CHECK`** constraint in PostgreSQL is used to enforce rules on the values that can be stored in a column. It ensures that data meets specified conditions before it is inserted or updated. If the data violates the constraint, PostgreSQL raises an error.
+
+### **Summary**
+
+- The **`CHECK`** constraint enforces rules on column values to maintain data integrity.
+- You can add `CHECK` constraints during table creation or using `ALTER TABLE`.
+- Use **custom names** for constraints to improve readability.
+- Remove constraints with the `DROP CONSTRAINT` command.
+- `CHECK` constraints support **complex expressions** and **multiple conditions**.
+
+### **56. We Need Unique Values & Identifiers in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/56.We-Need-Unique-Values&Identifiers!/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Summary**
+
+- **Primary Keys** uniquely identify rows and cannot contain `NULL` values.
+- **Unique Constraints** enforce uniqueness but allow `NULL` unless combined with `NOT NULL`.
+- **`SERIAL`** and **`IDENTITY`** columns provide auto-incrementing integers.
+- **UUIDs** are ideal for globally unique identifiers.
+- Combine constraints for robust data integrity.
+-
+
+##### Tips
+
+The `EXTRACT` function in SQL is used to retrieve specific parts of a date or timestamp, such as the year, month, day, hour, minute, or second. It's particularly useful when you want to perform date manipulations or filter data based on a specific component of a date.
+
+### **57. `SERIAL` in MySQL vs `SERIAL` in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/57.SERIAL-in-MySQLvsSERIAL-in-Postgresql/notes.md)
+
+#### **Summary**
+
+- **PostgreSQL `SERIAL`** creates an `INTEGER` auto-incrementing column.
+- **MySQL `SERIAL`** creates a `BIGINT UNSIGNED AUTO_INCREMENT` column.
+- Choose the appropriate data type based on **expected data volume** and **storage needs**.
+- Ensure consistency between parent and child table data types for **foreign keys**.
+
+Both MySQL and PostgreSQL support auto-incrementing numbers for primary keys and other unique identifiers. However, the implementation and behavior of `SERIAL` differ slightly between the two database systems.
+
+### **58. Working with Auto-Incrementing IDs & Primary Keys in PostgreSQL and MySQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/58.Working-With-Auto-Incrementing-IDs&Primary-Keys/notes.md)
+
+`Not particular thing to say - just some additional contents for the previous lesson`
+
+## **59. Auto-IDs, Primary Keys & Inserting Data in PostgreSQL and MySQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/59.Auto-IDs,-Primary-Keys&Inserting-Data/notes.md)
+
+`Not particular thing to say - just some additional contents for the previous lesson`
+
+### **60. Constraints - Summary in PostgreSQL and MySQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/60.Constraints-Summary/notes.md)
+
+It's the summary of the part of constraints `short and precious`
+
+### **Summary**
+
+- Constraints ensure **data integrity** and **consistency**.
+- Use **`PRIMARY KEY`**, **`FOREIGN KEY`**, **`NOT NULL`**, **`UNIQUE`**, **`CHECK`**, and **`DEFAULT`** constraints based on your data requirements.
+- Combining constraints provides robust protection against invalid data.
+
+### **61. Understanding Text Encoding & Collation in PostgreSQL and MySQL**
+
+`Add a short resume about the concept and the goal`
+
+### **Summary**
+
+- **Text Encoding** defines how characters are stored (e.g., UTF-8).
+- **Collation** determines how text is sorted and compared (e.g., case sensitivity).
+- **PostgreSQL** and **MySQL** offer flexible options for specifying encoding and collation at the database, table, and column levels.
+- Choose the appropriate encoding and collation based on your application's requirements.
+
+### **62. Temporary Tables & Tables From Other Tables in PostgreSQL and MySQL**
+
+`Add a short resume about the concept and the goal`
+
+### **Summary**
+
+- **Temporary Tables** are session-specific tables used for intermediate data storage.
+- **Creating Tables from Other Tables** allows you to duplicate structures and data for backup or analysis.
+- PostgreSQL and MySQL offer similar functionality with slight syntax differences.
+- Temporary tables are automatically dropped at the end of a session or transaction.
+
+## **63. Creating Generated Columns in PostgreSQL and MySQL**
+
+**Generated Columns** (also known as computed or virtual columns) are columns in a table where the values are automatically computed based on expressions or other columns. They help simplify queries and maintain consistent derived values without manual updates.
+
+#### **Summary**
+
+- **Generated Columns** automatically compute values based on expressions.
+- **PostgreSQL** supports only **stored** generated columns.
+- **MySQL** supports both **virtual** and **stored** generated columns.
+- Generated columns simplify data handling and ensure consistent derived values.
+
+### **64. Module Summary: Tables, Constraints, and Generated Columns**
+
+[📌 See the resume of this essential section](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/64.Module-Summary/notes.md)
+
+### **Conclusion**
+
+In this module, you gained essential skills for managing tables, constraints, and generated columns in PostgreSQL and MySQL. These tools help ensure your database remains **accurate**, **efficient**, and **easy to manage**.
