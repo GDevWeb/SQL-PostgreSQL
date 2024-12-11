@@ -6,46 +6,9 @@
       "port": 5432,
       "askForPassword": true,
       "driver": "PostgreSQL",
-      "name": "mySQL1",
-      "database": "default",
-      "username": "root"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 3306,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "username": "root",
-      "name": "mySQLGDevWeb#1",
-      "database": "default"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "GDevWeb",
-      "database": "Test",
-      "username": "GDevWeb"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "MyLocalMySQL",
-      "username": "postgres",
-      "database": "Test"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "PostgreSQL (tchat)",
-      "database": "tchat",
+      "name": "TutoPostGreSQL",
+      "group": "Tuto",
+      "database": "TutoPostGreSQL",
       "username": "postgres"
     }
   ]

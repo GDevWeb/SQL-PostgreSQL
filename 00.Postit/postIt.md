@@ -463,3 +463,34 @@ Add some example or a comparative array
 [notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/49.Introducing-Default-Column-Values/notes.md)
 
 `Add a short resume about the concept and the goal`
+
+### **50. Deleting (Dropping) Tables & Inserting Data with Default Values in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/50.Deleting-Dropping-Tables&Inserting-Data-With-Default-Values/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Summary**
+
+- **`DROP TABLE`** deletes a table and its data. Use `IF EXISTS` to avoid errors.
+- **Default values** simplify data insertion by automatically filling in predefined values.
+- Use `DEFAULT` in `INSERT` statements to explicitly apply default values.
+- Combine `DROP TABLE` and `CREATE TABLE` for table management during development.
+
+### **51. Updating Tables & Columns in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/51.Updating-Tables&Columns/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+#### **Summary**
+
+- Use **`UPDATE`** to modify existing rows in a table.
+- Use **`ALTER TABLE`** to modify the table structure by adding, dropping, renaming, or altering columns.
+- Be cautious with updates and structure changes, especially in production databases.
+
+### **52. Dealing with "No Data" (`NULL`) vs "0" in PostgreSQL**
+
+[notes](../05.Section4.Data-Definitions–Managing-Tables&Working-with-Data-Types/52.Dealing-With-No-Data-NULLvs-0/notes.md)
+
+`Add a short resume about the concept and the goal`
