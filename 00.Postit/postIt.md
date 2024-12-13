@@ -630,3 +630,43 @@ It's the summary of the part of constraints `short and precious`
 ### **Conclusion**
 
 In this module, you gained essential skills for managing tables, constraints, and generated columns in PostgreSQL and MySQL. These tools help ensure your database remains **accurate**, **efficient**, and **easy to manage**.
+
+---
+
+# 📚 **Section 5: Data Manipulation & Querying Operations With SQL** 📚
+
+## 📚**Module 68: Introduction**📚
+
+[notes](../06.Setion.5.Data-Manipulation&Querying-operations-With-SQL/68.Module-Introduction/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+## 📚 **Module 69: What Are CRUD Operations?** 📚
+
+[notes](../06.Setion.5.Data-Manipulation&Querying-operations-With-SQL/69.What-Are-CRUD-Operations/notes.md)
+
+`Add a short resume about the concept and the goal`
+
+### 📚 **Module 70: Inserting Data — Theory** 📚
+
+### 📚 **Module 71: Selecting Data — Theory** 📚
+
+### 📚 **Module 72: Updating Data — Theory** 📚
+
+### 📚 **Module 73: Deleting Data — Theory** 📚
+
+## 📚 **Module 74: Introducing The Section Example** 📚
+
+## 📚 **Module 75: Setting Up an Example Database & Table** 📚
+
+## 📚 **Module 76: Example — Inserting Data** 📚
+
+## 📚 **Module 77. Inserting More (Dummy) Data** 📚
+
+## 📚 **Module 78: Updating In Action** 📚
+
+### 📚 **Module 79: Deleting In Action** 📚
+
+### 📚 **Module 80: Selecting Data — The Basics** 📚
+
+### 📚 **Module 82. Filtering with WHERE: Available Comparison Operators & Variations** 📚
