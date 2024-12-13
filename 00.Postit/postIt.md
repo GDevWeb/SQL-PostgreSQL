@@ -670,3 +670,23 @@ In this module, you gained essential skills for managing tables, constraints, an
 ### 📚 **Module 80: Selecting Data — The Basics** 📚
 
 ### 📚 **Module 82. Filtering with WHERE: Available Comparison Operators & Variations** 📚
+
+### 📚 **Module 83: Filtering In Action (WHERE In Action)** 📚
+
+### 📚 **Module 85: Greater, Smaller & Ranges** 📚
+
+### 📚 **Module 86: Filtering Text Values** 📚
+
+### 📚 **Module 87: Working with Dates & Date Differences** 📚
+
+### 📚 **Module 88: Filtering Conditions Without Hard-Coded Values** 📚
+
+### 📚 **Module 89: Introducing `ORDER BY` & `LIMIT`** 📚
+
+### 📚 **Module 90: Ordering & Limiting Results In Action** 📚
+
+### 📚 **Module 91: Looking for `DISTINCT` Values** 📚
+
+### 📚 **Module 92: Subqueries & Views** 📚
+
+### 📚 **Module 93: Module Summary** 📚

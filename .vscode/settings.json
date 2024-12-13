@@ -16,17 +16,8 @@
       "server": "localhost",
       "port": 5432,
       "driver": "PostgreSQL",
-      "name": "online_shop",
-      "database": "online_shop",
-      "username": "postgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "bookstore",
-      "database": "bookstore",
+      "name": "Tuto",
+      "database": "Tuto",
       "username": "postgres"
     }
   ]
