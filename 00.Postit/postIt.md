@@ -690,3 +690,49 @@ In this module, you gained essential skills for managing tables, constraints, an
 ### 📚 **Module 92: Subqueries & Views** 📚
 
 ### 📚 **Module 93: Module Summary** 📚
+
+❗TODO : review the views
+
+---
+
+## **Section 6: Data Normalization & Relationships**
+
+### What Are Relationships?
+
+1. **What is Data Normalization?**
+
+   - The process of organizing data in a database to reduce redundancy and improve data integrity.
+   - It ensures that each piece of information is stored in one place only.
+
+2. **Why Normalize Data?**
+
+   - Eliminate redundancy.
+   - Simplify database updates and deletions.
+   - Reduce storage costs and improve query efficiency.
+
+3. **What Are Relationships?**
+
+   - Relationships connect tables that share related data.
+   - Types of relationships:
+     - **One-to-Many**: A single record in one table is linked to multiple records in another table.
+     - **Many-to-Many**: Records in one table are linked to multiple records in another, and vice versa.
+     - **One-to-One**: A single record in one table is linked to a single record in another.
+
+4. **Real-World Example:**
+
+   - **Scenario**: A library system.
+     - **Books Table**: Stores book details.
+     - **Authors Table**: Stores author details.
+     - **Relationships**:
+       - A book can have one author (**One-to-One**).
+       - An author can have multiple books (**One-to-Many**).
+
+5. **Normalization Rules (Forms)**
+
+   - **First Normal Form (1NF)**:
+     - Ensure each column has atomic (indivisible) values.
+     - Eliminate duplicate rows.
+   - **Second Normal Form (2NF)**:
+     - Ensure all non-key columns depend on the entire primary key.
+   - **Third Normal Form (3NF)**:
+     - Ensure all non-key columns depend only on the primary key, not on other non-key columns.
