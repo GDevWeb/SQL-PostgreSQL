@@ -736,3 +736,69 @@ In this module, you gained essential skills for managing tables, constraints, an
      - Ensure all non-key columns depend on the entire primary key.
    - **Third Normal Form (3NF)**:
      - Ensure all non-key columns depend only on the primary key, not on other non-key columns.
+
+---
+
+### **Table of Contents: Section 7 - More on Primary & Foreign Keys**
+
+---
+
+#### **127. Module Introduction**
+
+- Overview of the section’s goals and learning objectives.
+
+#### **128. Remember: Primary Keys Don’t Have to Be Auto-Incrementing IDs**
+
+- Explains that primary keys can be meaningful fields, not just auto-incrementing IDs.
+- Examples of composite and non-incrementing primary keys.
+
+#### **129. Primary Keys: When to Use Which Column**
+
+- Guidelines on selecting the most appropriate column(s) as a primary key.
+- Examples of real-world scenarios for choosing primary keys.
+
+#### **130. Introducing Composite Primary Keys**
+
+- The concept of composite keys, where more than one column is used to form a primary key.
+- Scenarios where composite primary keys are useful.
+
+#### **131. Defining Composite Primary Keys (Composite Keys in Action)**
+
+- How to define composite primary keys in SQL syntax.
+- Practical examples and exercises to create tables with composite keys.
+
+#### **132. Composite Foreign Keys**
+
+- Explains how composite keys can act as foreign keys in other tables.
+- Use cases and implementation details.
+
+#### **133. Composite Keys in Action**
+
+- Hands-on examples demonstrating the creation and usage of composite primary and foreign keys.
+- Querying data with composite relationships.
+
+#### **134. Self-Referencing Relationships (Self-Referential Relationships)**
+
+- Introduction to self-referential relationships in tables.
+- Use cases such as hierarchical data or employee-manager relationships.
+
+#### **135. Self-Referencing Many-to-Many Relationships**
+
+- Explains how self-referencing relationships can extend to many-to-many associations.
+- Example: Friends list in a social network.
+
+---
+
+### **Practice Exercises**
+
+- Creating tables with composite primary keys.
+- Adding composite foreign keys to related tables.
+- Building self-referential relationships.
+- Writing queries to extract data from self-referential and composite key relationships.
+
+---
+
+### **Summary**
+
+- Recap of the importance of primary keys in relational databases.
+- Key takeaways about composite and self-referencing relationships.

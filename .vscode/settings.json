@@ -37,6 +37,15 @@
       "name": "exercise_library_system",
       "username": "postgres",
       "database": "exercise_library_system"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "school",
+      "database": "school",
+      "username": "postgres"
     }
   ]
 }
