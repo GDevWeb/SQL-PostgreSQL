@@ -46,6 +46,15 @@
       "name": "school",
       "database": "school",
       "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "restaurants",
+      "database": "restaurants",
+      "username": "postgres"
     }
   ]
 }
