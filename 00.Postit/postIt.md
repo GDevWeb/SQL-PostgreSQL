@@ -808,9 +808,7 @@ In this module, you gained essential skills for managing tables, constraints, an
 
 ---
 
-**Section 8: Grouping & Aggregate Functions - Notes**
-
----
+## **Section 8: Grouping & Aggregate Functions - Notes**
 
 ### Table of Contents
 
