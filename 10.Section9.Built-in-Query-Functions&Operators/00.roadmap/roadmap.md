@@ -8,51 +8,6 @@
 
 ---
 
-#### **Day 1: Wednesday**
-
-**Goal**: Introduction and basic understanding of functions.
-
-- **Tasks**:
-  - 🟢 Watch videos:
-    - 151. Module Introduction (2 min)
-    - 152. The Module Project (5 min)
-  - 🟢 Practice:
-    - Review the schema of the **Module Project** and try creating the `Members`, `Membership Types`, and `Memberships` tables based on the provided structure.
-
----
-
-#### **Day 2: Thursday**
-
-**Goal**: Explore string and mathematical functions.
-
-- **Tasks**:
-  - 🟢 Watch videos:
-    - 153. Working with Mathematical Functions & Arithmetic Operators (14 min)
-    - 154. Understanding String Functions with SELECT (7 min)
-    - 155. Using String Functions with INSERT (9 min)
-  - 🟢 Practice:
-    - Use mathematical functions to calculate totals, discounts, or averages.
-    - Use string functions (`UPPER`, `LOWER`, `CONCAT`) on `Members` or `Membership Types`.
-
----
-
-#### **Day 3: Friday**
-
-**Goal**: Understand and apply date/time functions.
-
-- **Tasks**:
-  - 🟢 Watch videos:
-    - 156. Understanding Date / Time Functions (5 min)
-    - 157. Working with Weekdays (8 min)
-    - 158. Calculating INTERVALS (10 min)
-    - 159. Adding INTERVALS to Dates (8 min)
-  - 🟢 Practice:
-    - Work on the `Membership Start` and `Membership End` dates:
-      - Calculate the duration of memberships using date differences.
-      - Add intervals to extend membership periods.
-
----
-
 #### **Day 4: Sunday**
 
 **Goal**: Dive deeper into filtering and subqueries.
