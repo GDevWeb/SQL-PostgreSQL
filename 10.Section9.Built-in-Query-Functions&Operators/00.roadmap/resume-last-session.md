@@ -2,58 +2,64 @@
 
 ---
 
-### **Covered Lessons**
+### **Lessons Covered**
 
-1. **Lesson 158: Calculating INTERVALS**
+#### **Lesson 161: Working with Subquery Expressions and EXISTS**
 
-   - Learned how to calculate durations and manipulate dates using `INTERVAL`.
-   - Exercises included:
-     - Calculating remaining membership duration.
-     - Extending membership end dates.
-     - Retrieving bookings from the last 30 days.
+- Learned how to use the `EXISTS` operator for filtering rows based on the existence of related records in a subquery.
+- Explored correlated subqueries and how they reference the outer query.
+- Practical applications included:
+  - Members with gym check-ins.
+  - Trainers assigned to members.
+  - Facilities with bookings in 2024.
 
-2. **Lesson 159: Adding INTERVALS to Dates**
-   - Focused on using `+ INTERVAL` to project future or past dates.
-   - Exercises included:
-     - Adding 1 year to membership end dates.
-     - Finding memberships expiring within 90 days.
-     - Scheduling a maintenance event exactly 1 month from today.
+#### **Lesson 162: Subquery Expressions and EXISTS (Advanced)**
 
----
+- Expanded on `EXISTS` with complex subqueries for more advanced filtering.
+- Differentiated between correlated and uncorrelated subqueries.
+- Applied `EXISTS` to scenarios like memberships expiring soon, unassigned trainers, and overlapping bookings.
 
-### **Progress Highlights**
+#### **Lesson 163: Subquery Expressions and IN**
 
-- **Date Arithmetic**: Demonstrated good understanding of `INTERVAL` usage and date calculations.
-- **Event Scheduling**: Created a table for events and successfully inserted records for future events.
-- **Filtering with Dates**: Applied logical conditions to retrieve specific time-based data.
+- Focused on the `IN` operator for filtering rows based on a list or subquery.
+- Compared `IN` and `EXISTS`, highlighting when to use each.
+- Examples included:
+  - Members with active memberships.
+  - Facilities used by specific members.
+  - Membership types with active users.
 
 ---
 
 ### **Strengths**
 
-- Strong command of SQL syntax, particularly with `INTERVAL`, `CURRENT_DATE`, and date-related functions.
-- Attention to detail in queries, especially when handling future and past date calculations.
-- Proactive use of joins and string concatenation for user-friendly outputs.
+1. **Clear Application of Concepts**: You demonstrated a good understanding of `EXISTS` and `IN` by applying them accurately in practical scenarios.
+2. **Logical Query Structure**: Your queries are well-organized and adhere to SQL best practices.
+3. **Attention to Details**: You paid attention to conditions, ensuring the right filters were applied.
 
 ---
 
-### **Suggestions for Improvement**
+### **Areas for Improvement**
 
-1. **Use `UPDATE` Statements**: When modifying table data, ensure you're using `UPDATE` instead of just displaying calculated results.
-2. **Optimize Filtering**: In date range queries, ensure the logic covers edge cases like expired or already-processed records.
-3. **Enhance Event Management**: Consider adding recurring functionality or additional metadata (e.g., event type, organizer).
+1. **Optimize Subqueries**:
+   - Use uncorrelated subqueries where possible for better performance.
+   - Avoid unnecessary conditions in `EXISTS` clauses.
+2. **Broaden Use Cases**:
+   - Explore combining `EXISTS` and `IN` with `JOIN` for more complex scenarios.
 
 ---
 
-### **Grade for the Session**: **A**
+### **Overall Grade**: **A-**
+
+- You’ve shown strong progress and a solid grasp of subqueries, especially with `EXISTS` and `IN`.
+- A few areas can be refined, particularly around optimizing query performance and expanding use cases.
 
 ---
 
 ### **Next Steps**
 
-- Take a well-deserved break! Rest is just as important as practice.
-- When ready, proceed with the next lesson in the roadmap, focusing on enhancing your skills in filtering, pattern matching, or subqueries.
+- Take a well-deserved break to recharge.
+- When ready, proceed to the next lesson, focusing on combining subqueries and aggregate functions or tackling more advanced scenarios.
 
 ---
 
-Great job today! Let me know when you're ready to continue. 😊🎉
+Let me know if you’d like further clarification or have other questions. 😊🎉
