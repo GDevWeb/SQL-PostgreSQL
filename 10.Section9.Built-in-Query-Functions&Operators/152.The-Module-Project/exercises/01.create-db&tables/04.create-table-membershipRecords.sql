@@ -9,4 +9,6 @@ CREATE TABLE IF NOT EXISTS MembershipRecords(
   FOREIGN KEY (MembershipID) REFERENCES MembershipTypes(MembershipID)
 );
 
-SELECT * FROM MembershipRecords;
+SELECT * FROM MembershipRecords; 
+
+

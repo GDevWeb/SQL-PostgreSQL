@@ -989,3 +989,74 @@ Assigns ranks to rows based on a specified order.
 1. Experiment with queries using `GROUP BY` and `HAVING` on the `restaurants` database.
 2. Create your own scenarios involving window functions and ranking.
 3. Try writing complex queries that combine aggregate functions, joins, and filtering.
+
+---
+
+### **Table of Contents for Section 9: Built-in Query Functions & Operators**
+
+1. **151: Module Introduction**
+
+   - Overview of the module's objectives and key topics.
+
+2. **152: The Module Project**
+
+   - Introduction to the Gym Club Membership Management System project.
+
+3. **153: Working with Mathematical Functions & Arithmetic Operators**
+
+   - Using functions like `SUM`, `AVG`, `ROUND`, and arithmetic calculations.
+
+4. **154: Understanding String Functions with SELECT**
+
+   - Extracting, transforming, and formatting text in queries.
+
+5. **155: Using String Functions with INSERT**
+
+   - Applying transformations during data insertion.
+
+6. **156: Understanding Date/Time Functions**
+
+   - Extracting year, month, day, and calculating age using date functions.
+
+7. **157: Working with Weekdays**
+
+   - Grouping and filtering data by days of the week.
+
+8. **158: Calculating INTERVALS**
+
+   - Performing date arithmetic and finding time differences.
+
+9. **159: Adding INTERVALS to Dates**
+
+   - Extending or scheduling dates with interval additions.
+
+10. **160: Understanding LIKE & Pattern Matching**
+
+    - Flexible searching using `LIKE` and `ILIKE`.
+
+11. **161: Understanding EXISTS**
+
+    - Filtering data with subqueries to check for existence.
+
+12. **162: Working with Subquery Expressions and EXISTS**
+
+    - Combining subqueries and `EXISTS` for advanced filtering.
+
+13. **163: Working with Subquery Expressions and IN**
+
+    - Using `IN` to simplify filtering with subqueries.
+
+14. **164: Introducing Conditional Expressions**
+
+    - Using `CASE` to apply logic and categorize data within queries.
+
+15. **165: Challenge Solution**
+
+    - Solution walkthrough for a complex query-based challenge.
+
+16. **166: Database (SQL) vs Application Level**
+    - Comparing the roles of SQL and application logic for data handling.
+
+---
+
+Let me know if you'd like to expand on any specific section! 📚
