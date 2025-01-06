@@ -1059,4 +1059,37 @@ Assigns ranks to rows based on a specified order.
 
 ---
 
-Let me know if you'd like to expand on any specific section! 📚
+### **Table of Contents for Section 10: Database Transactions**
+
+1. **Lesson 167: Module Introduction**
+
+   - Overview of the module's objectives and the importance of transactions in SQL.
+
+2. **Lesson 168: Understanding Transactions**
+
+   - Explanation of transactions and the ACID properties (Atomicity, Consistency, Isolation, Durability).
+
+3. **Lesson 169: A Note About This Module's Project**
+
+   - Overview of how the project ties into the lesson concepts.
+
+4. **Lesson 170: Applying Transactions & ROLLBACK**
+
+   - Practical use of `ROLLBACK` to undo changes and maintain data integrity.
+
+5. **Lesson 171: Committing Changes**
+
+   - Using `COMMIT` to save changes permanently and understanding its significance.
+
+6. **Lesson 172: Working with Savepoints**
+
+   - Creating checkpoints within transactions using `SAVEPOINT` and rolling back to specific points.
+
+7. **Lesson 173: Transactions in PostgreSQL**
+
+   - PostgreSQL-specific features, including isolation levels, nested transactions, and error handling.
+
+8. **Resume section**
+   - [resume section](#summary-11).
+
+---
