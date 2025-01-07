@@ -2,8 +2,7 @@
 
 ## **Roadmap**
 
-- [udemy]()
-  **Plan for Section 11: Using Indexes**
+### **Plan for Section 11: Using Indexes**
 
 ---
 
