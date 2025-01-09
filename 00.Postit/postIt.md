@@ -1093,3 +1093,77 @@ Assigns ranks to rows based on a specified order.
    - [resume section](#summary-11).
 
 ---
+
+### **Table of Contents: Section 11 - Using Indexes**
+
+---
+
+#### **Lesson 175: What Are Indexes?**
+
+- Introduction to the purpose and benefits of indexes.
+- Trade-offs: Faster reads, slower writes, and increased storage.
+
+#### **Lesson 176: Don’t Use Too Many Indexes!**
+
+- Balancing the benefits and costs of indexes.
+- Best practices for deciding when to use indexes.
+
+#### **Lesson 177: Index Types in PostgreSQL**
+
+- Overview of PostgreSQL index types:
+  - B-Tree
+  - Hash
+  - GIN
+  - GiST
+  - BRIN
+  - SP-GiST
+  - Partial and Composite Indexes
+
+#### **Lesson 178: Setting Up Some Example Data**
+
+- Creating a dataset for testing index types.
+- Example: Products table with categories, prices, and descriptions.
+
+#### **Lesson 179: EXPLAINing Queries & Query Planning**
+
+- Using `EXPLAIN` and `EXPLAIN ANALYZE` to understand query execution plans.
+- Analyzing query costs, row estimates, and scan types.
+
+#### **Lesson 180: Creating & Using Single-Column Indexes**
+
+- Introduction to single-column indexes.
+- Examples and practical usage for optimized queries.
+
+#### **Lesson 181: More on Creating & Dropping Indexes**
+
+- Creating indexes during table creation (MySQL-specific).
+- Dropping unused or redundant indexes.
+
+#### **Lesson 182: Unique Indexes**
+
+- Enforcing data integrity with unique indexes.
+- Creating single-column and composite unique indexes.
+
+#### **Lesson 183: Working with Multi-Column Indexes (Composite Indexes)**
+
+- Using composite indexes for multi-column filtering and sorting.
+- Importance of column order in composite indexes.
+
+#### **Lesson 184: Partial Indexes**
+
+- Indexing specific rows based on conditions.
+- Optimizing queries with targeted subsets of data.
+
+### **Summary**
+
+- [summary section](../12.Section11.Using-Indexes/00.Summary/notes.md)
+
+---
+
+### **Appendix**
+
+- Best practices for index management.
+- Example queries and exercises for index creation, usage, and optimization.
+- Tips for monitoring and maintaining indexes in PostgreSQL.
+
+---

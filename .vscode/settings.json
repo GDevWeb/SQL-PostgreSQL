@@ -64,6 +64,15 @@
       "name": "gymclub",
       "database": "gymclub",
       "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "ecommerce",
+      "database": "ecommerce",
+      "username": "postgres"
     }
   ]
 }
