@@ -73,6 +73,15 @@
       "name": "ecommerce",
       "database": "ecommerce",
       "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "Ecommerce",
+      "database": "Ecommerce",
+      "username": "postgres"
     }
   ]
 }

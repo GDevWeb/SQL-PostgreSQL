@@ -1167,3 +1167,7 @@ Assigns ranks to rows based on a specified order.
 - Tips for monitoring and maintaining indexes in PostgreSQL.
 
 ---
+
+### Study cases
+
+- [e-commerce](../13.Section12.Summary&Practice-A-complete-Example/01.Case-study-ecommerce/notes.md)

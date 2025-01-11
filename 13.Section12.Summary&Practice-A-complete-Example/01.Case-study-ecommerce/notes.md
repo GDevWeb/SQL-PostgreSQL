@@ -20,7 +20,7 @@ Develop a database to manage an e-commerce platform’s orders, products, custom
 2. **Products Table**:
 
    - Contains details of available products.
-   - **Columns**: `ProductID`, `ProductName`, `Category`, `Price`, `Stock`.
+   - **Columns**: `ProductID`, `ProductName`, `Category`, `Price`, `Quantity`, `Stock`, `CreatedAt`, `UpdatedAt`
 
 3. **Orders Table**:
 
@@ -61,7 +61,7 @@ Develop a database to manage an e-commerce platform’s orders, products, custom
 - **Basic Queries**:
 
   - Retrieve all customer orders.
-  - Find products with low stock levels (`Stock < 10`).
+  - Find products with low stock levels (`Quantity < 50`).
   - Calculate total revenue from all orders.
 
 - **Aggregations**:
@@ -73,7 +73,7 @@ Develop a database to manage an e-commerce platform’s orders, products, custom
 - **Joins**:
 
   - List all orders along with customer names and products ordered.
-  - Retrieve shipping details for completed orders.
+  - Retrieve shipping details for FulFilled orders.
 
 - **Advanced Filtering**:
 
