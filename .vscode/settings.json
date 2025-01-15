@@ -4,62 +4,6 @@
       "previewLimit": 50,
       "server": "localhost",
       "port": 5432,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "TutoPostGreSQL",
-      "group": "Tuto",
-      "database": "TutoPostGreSQL",
-      "username": "postgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "Tuto",
-      "database": "Tuto",
-      "username": "postgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "normalization",
-      "database": "normalization",
-      "username": "postgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "exercise_library_system",
-      "username": "postgres",
-      "database": "exercise_library_system"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "school",
-      "database": "school",
-      "username": "postgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "restaurants",
-      "database": "restaurants",
-      "username": "postgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
       "driver": "PostgreSQL",
       "name": "gymclub",
       "database": "gymclub",
@@ -70,8 +14,8 @@
       "server": "localhost",
       "port": 5432,
       "driver": "PostgreSQL",
-      "name": "ecommerce",
-      "database": "ecommerce",
+      "name": "Ecommerce",
+      "database": "Ecommerce",
       "username": "postgres"
     },
     {
@@ -79,8 +23,17 @@
       "server": "localhost",
       "port": 5432,
       "driver": "PostgreSQL",
-      "name": "Ecommerce",
-      "database": "Ecommerce",
+      "name": "LibraryManagementSystem",
+      "database": "LibraryManagementSystem",
+      "username": "psotgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "librarymanagementsystem",
+      "database": "librarymanagementsystem",
       "username": "postgres"
     }
   ]

@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS Loans(
+  LoanID SERIAL PRIMARY KEY,
+  MembersID INT NOT NULL, --fk members
+  BookID INT NOT NULL, --fk books
+  LoanDate Date DEFAULT CURRENT_DATE,
+  ReturnDate DATE GENERATED ALWAYS AS (LoanDate + INTERVAL '30 days') STORED,
+  ReturnedOn Date,
+  LateFee DECIMAL(10,2), --frais de retard
+  FOREIGN KEY (MembersID) REFERENCES Members(MembersID) ON DELETE CASCADE,
+  FOREIGN KEY (BookID) REFERENCES Books(BookID) ON DELETE CASCADE
+);
+
+SELECT * FROM Loans;
