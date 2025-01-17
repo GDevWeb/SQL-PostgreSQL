@@ -1,0 +1,22 @@
+INSERT INTO Employees (first_name, last_name, email, phone, hire_date, salary, department_id) VALUES
+('John', 'Jones', 'john.jones@example.com', '1234562012', '2018-07-25', 41741, 43),
+('Alex', 'Williams', 'alex.williams@example.com', '1234561946', '2022-12-28', 34241, 44),
+('John', 'Williams', 'john.williams@example.com', '1234561031', '2018-03-15', 79282, 45),
+('Alex', 'Williams', 'alex.williams2@example.com', '1234561857', '2023-03-18', 84733, 46),
+('Jane', 'Brown', 'jane.brown@example.com', '1234567954', '2022-12-11', 65412, 47),
+('Jordan', 'Johnson', 'jordan.johnson@example.com', '1234562880', '2019-01-27', 100030, 48),
+('Morgan', 'Miller', 'morgan.miller@example.com', '1234568503', '2021-10-31', 75877, 49),
+('Jordan', 'Williams', 'jordan.williams@example.com', '1234564712', '2016-07-20', 40210, 43),
+('Alex', 'Smith', 'alex.smith@example.com', '1234566895', '2023-04-05', 79455, 44),
+('Jane', 'Brown', 'jane.brown2@example.com', '1234568733', '2023-10-07', 107415, 45),
+('Alex', 'Jones', 'alex.jones@example.com', '1234562568', '2016-12-18', 67767, 46),
+('Jordan', 'Jones', 'jordan.jones@example.com', '1234562848', '2022-10-03', 78244, 47),
+('Alex', 'Garcia', 'alex.garcia@example.com', '1234561681', '2019-10-18', 48082, 48),
+('Alex', 'Garcia', 'alex.garcia2@example.com', '1234566249', '2023-09-22', 103289, 49),
+('Morgan', 'Jones', 'morgan.jones@example.com', '1234566999', '2016-07-26', 55379, 46),
+('Morgan', 'Brown', 'morgan.brown@example.com', '1234567219', '2023-02-28', 67710, 45),
+('Jane', 'Johnson', 'jane.johnson@example.com', '1234567265', '2015-03-05', 82392, 46),
+('Jane', 'Smith', 'jane.smith@example.com', '1234568397', '2023-02-14', 65731, 47),
+('Jordan', 'Jones', 'jordan.jones2@example.com', '1234565523', '2019-03-13', 109432, 45),
+('Jane', 'Johnson', 'jane.johnson2@example.com', '1234562224', '2022-02-01', 68961, 45);
+

@@ -35,6 +35,15 @@
       "name": "librarymanagementsystem",
       "database": "librarymanagementsystem",
       "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "employeemanagementsystem",
+      "database": "employeemanagementsystem",
+      "username": "postgres"
     }
   ]
 }
