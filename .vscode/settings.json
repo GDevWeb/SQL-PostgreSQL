@@ -44,6 +44,15 @@
       "name": "employeemanagementsystem",
       "database": "employeemanagementsystem",
       "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "socialMediaPlatform",
+      "database": "social_media_platform",
+      "username": "postgres"
     }
   ]
 }
