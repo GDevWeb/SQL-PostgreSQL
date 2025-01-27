@@ -1,10 +1,6 @@
 /* Queries */ 
 
 --7.Find events with a revenue greater than a specific amount.
-
--- CREATE OR REPLACE VIEW greater_event AS  
-
--- CREATE OR REPLACE VIEW topEvent AS
 SELECT
   e.event_id,
   e.event_name,

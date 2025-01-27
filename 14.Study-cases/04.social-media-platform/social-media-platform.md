@@ -1,3 +1,7 @@
+# Study case
+
+## Event ticketing system
+
 ### **Objective**
 
 Design and implement a database schema for a social media platform that tracks users, posts, comments, likes, and followers. Use this schema to practice creating tables, inserting data, and writing queries.
