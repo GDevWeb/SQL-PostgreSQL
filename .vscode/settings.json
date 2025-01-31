@@ -23,24 +23,6 @@
       "server": "localhost",
       "port": 5432,
       "driver": "PostgreSQL",
-      "name": "LibraryManagementSystem",
-      "database": "LibraryManagementSystem",
-      "username": "psotgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
-      "name": "librarymanagementsystem",
-      "database": "librarymanagementsystem",
-      "username": "postgres"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "driver": "PostgreSQL",
       "name": "employeemanagementsystem",
       "database": "employeemanagementsystem",
       "username": "postgres"
@@ -52,6 +34,33 @@
       "driver": "PostgreSQL",
       "name": "socialMediaPlatform",
       "database": "social_media_platform",
+      "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "event_ticketing_system",
+      "username": "postgres",
+      "database": "event_ticketing_system"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "inventoryandordermanagementsystem",
+      "database": "inventoryandordermanagementsystem",
+      "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "library_management_system",
+      "database": "library_management_system",
       "username": "postgres"
     }
   ]
